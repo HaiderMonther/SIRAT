@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_hom{
+    display: grid;
+    grid-template-columns:repeat(2,30px) ;
+    margin: 145px 0 0 0;
+}
+
+.left_hom{
+    display: grid;
+    grid-template-rows: repeat(3,62px 100px );
+    text-align: right;
+    width: 540px;
+    height: 80px;
+    
+}
+
+.title_hom{
+    font-family: var(--body-font);
+    font-size: 35px;
+}
+
+.hom_desc{
+    color:var(--text-color);
+    text-align: right;
+    font-family: var(--body-font);
+    font-size: 25px;
+    
+}
+
+.btn_hom{
+    width: 15rem;
+    height: 2rem;
+    margin:0 0 0 390px;
+    color: var(--back-color);
+    background: var(--container-color);
+    font-size: 15px;
+    font-family: var(--body-font);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.btn_hom:hover{
+transition: 2s;
+background-color: var(--text-color);
+}
+
+.rig_home{
+    display: grid;
+    grid-template-rows: repeat(1, 52px 75px );
+    text-align: right;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 5px;
+    background-color: var(--body-color-dark);
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    width: 597px;
+    height: 183px;
+    margin-left: 754px
+}
+
+.tit_rig{
+    display: flex;
+    height: 65px;
+    justify-content: right;
+    padding-right:27px ;
+    padding-top: 10px;
+}
+
+.tex_rig{
+    font-family: var(--body-font);
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.Sour_rig{
+    padding-right: 40px;
+    font-size: 25px;
+    font-family: var(--body-font);
+}
+
+/*********hadith*******/
+
+.hadith{
+    text-decoration: none;
+    color: var(--back-color);
+}
+
+
+.cont_had{
+    display: grid;
+    justify-content: center;
+    padding: 80px 0 0 0px;
+    grid-template-rows: repeat(2, 380px);
+}
+
+.had_box{
+    width: 70rem;
+    height: 277px;
+    border-radius: 5px;
+    background:var(--back-color);
+}
+
+.tit_P1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 555px;
+   height: 38px;
+   margin:-20px 0 0 300px;
+   border-radius: 30px;
+   background-color: var(--container-color);
+}
+
+.p_tex{
+    text-align: center;
+    width: 61rem;
+    margin: 70px 0 0 95px;
+    font-size: 25px;
+    font-family: var(--body-font);
+}
